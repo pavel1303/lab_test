@@ -8,83 +8,85 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="body">
-    <div class="container">
         <main class="content">
-            <h1 class="title">Оформление заказа</h1>
+            <div class="container">
+                <h1 class="title">Оформление заказа</h1>
+            </div>
             <form action="#">
                 <section class="order">
-                    <div class="order-setup">
-                        <div class="order-setup__delivery">
-                            <div class="order-setup__title-block">
-                                <h2 class="order-setup__title">Доставка</h2>
-                                <div class="tumblers">
-                                    <div class="tumblers__back">ᐸ</div>
-                                    <div class="tumblers__forward">ᐳ</div>
-                                </div>
-                            </div>
-                            <div class="address-selection">
-                                <div class="address-selection__items">
-                                    <div class="address-selection__item">
-                                        <div class="address-selection__address"><span>Почта России, курьер — 24-26 сент.</span><span>ул. Академика Королева, 73/3, Петропавловск- Камчатский, 683000</span></div>
-                                        <div class="address-selection__price">+367 ₽</div>
-                                    </div>
-                                    <div class="address-selection__item">
-                                        <div class="address-selection__address"><span>Лабиринт, курьер — 25 сент.</span><span>Можайское шоссе, д. 21, кв. 50, Москва, 121471</span></div>
-                                        <div class="address-selection__price">0 ₽</div>
+                    <div class="container">
+                        <div class="order-setup">
+                            <div class="order-setup__delivery">
+                                <div class="order-setup__title-block">
+                                    <h2 class="order-setup__title">Доставка</h2>
+                                    <div class="tumblers">
+                                        <div class="tumblers__back">ᐸ</div>
+                                        <div class="tumblers__forward">ᐳ</div>
                                     </div>
                                 </div>
-                                <div class="address-selection__new pseudolink">Выбрать новое место и способ</div>
-                            </div>
-                            <div class="date-selection">
-                                <div class="date-selection__items">
-                                    <div class="date-selection__item"><span>пн, 24 сен — ср, 26 сен</span><span>10:00–19:00</span></div>
-                                    <div class="date-selection__item"><span>чт, 27 сен — пт, 28 сен</span><span>10:00–19:00</span></div>
+                                <div class="address-selection">
+                                    <div class="address-selection__items">
+                                        <div class="address-selection__item">
+                                            <div class="address-selection__address"><span>Почта России, курьер — 24-26 сент.</span><span>ул. Академика Королева, 73/3, Петропавловск- Камчатский, 683000</span></div>
+                                            <div class="address-selection__price">+367 ₽</div>
+                                        </div>
+                                        <div class="address-selection__item">
+                                            <div class="address-selection__address"><span>Лабиринт, курьер — 25 сент.</span><span>Можайское шоссе, д. 21, кв. 50, Москва, 121471</span></div>
+                                            <div class="address-selection__price">0 ₽</div>
+                                        </div>
+                                    </div>
+                                    <div class="address-selection__new pseudolink">Выбрать новое место и способ</div>
                                 </div>
-                                <div class="date-selection__new pseudolink">Другие дата и время</div>
+                                <div class="date-selection">
+                                    <div class="date-selection__items">
+                                        <div class="date-selection__item"><span>пн, 24 сен — ср, 26 сен</span><span>10:00–19:00</span></div>
+                                        <div class="date-selection__item"><span>чт, 27 сен — пт, 28 сен</span><span>10:00–19:00</span></div>
+                                    </div>
+                                    <div class="date-selection__new pseudolink">Другие дата и время</div>
+                                </div>
+                                <div class="options">
+                                    <label for="notifications"><input type="checkbox" id="notifications">Viber/СМС уведомления о статусе заказа</label>
+                                    <label for="contactless-delivery"><input type="checkbox" id="contactless-delivery" checked disabled>Оставить у двери (бесконтактная доставка)</label>
+                                </div>
                             </div>
-                            <div class="options">
-                                <label for="notifications"><input type="checkbox" id="notifications">Viber/СМС уведомления о статусе заказа</label>
-                                <label for="contactless-delivery"><input type="checkbox" id="contactless-delivery" checked disabled>Оставить у двери (бесконтактная доставка)</label>
+                            <div class="order-setup__recipient">
+                                <h2 class="order-setup__title">Получатель</h2>
+                                <div class="recipient-info">
+                                    <div class="recipient-info__name">
+                                        <select name="recipient-name" id="recipient-name">
+                                            <option value="Вольфганг Вениаминович Константинопольский">Вольфганг Вениаминович Константинопольский</option>
+                                            <option value="Лебедев Павел Андреевич">Лебедев Павел Андреевич</option>
+                                        </select>
+                                        <div class="recipient-info__new-name pseudolink">Новый получатель</div>
+                                    </div>
+                                    <div class="recipient-info__contact">
+                                        <select name="recipient-contact" id="recipient-contact">
+                                            <option value="+7 910 234-56-78">+7 910 234-56-78</option>
+                                            <option value="+7 926 378-79-01">+7 926 378-79-01</option>
+                                        </select>
+                                        <div class="recipient-info__new-contact pseudolink">Новый телефон</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="order-setup__recipient">
-                            <h2 class="order-setup__title">Получатель</h2>
-                            <div class="recipient-info">
-                                <div class="recipient-info__name">
-                                    <select name="recipient-name" id="recipient-name">
-                                        <option value="Вольфганг Вениаминович Константинопольский">Вольфганг Вениаминович Константинопольский</option>
-                                        <option value="Лебедев Павел Андреевич">Лебедев Павел Андреевич</option>
-                                    </select>
-                                    <div class="recipient-info__new-name pseudolink">Новый получатель</div>
-                                </div>
-                                <div class="recipient-info__contact">
-                                    <select name="recipient-contact" id="recipient-contact">
-                                        <option value="+7 910 234-56-78">+7 910 234-56-78</option>
-                                        <option value="+7 926 378-79-01">+7 926 378-79-01</option>
-                                    </select>
-                                    <div class="recipient-info__new-contact pseudolink">Новый телефон</div>
-                                </div>
-                            </div>
+                        <div class="order-summary">
+                            <h2 class="order-summary__title">В заказе 4 товара <span>(2 кг)</span></h2>
+                            <div class="order-summary__total"><p>Цена товаров</p> <p>29 456 ₽</p></div>
+                            <div class="order-summary__total-discount"><p>Все скидки</p> <p>–7 732 ₽</p></div>
+                            <div class="order-summary__discount"><p>Скидка за предоплату</p> <p>–3%</p></div>
                         </div>
-                    </div>
-                    <div class="order-summary">
-                        <h2 class="order-summary__title">В заказе 4 товара <span>(2 кг)</span></h2>
-                        <div class="order-summary__total"><p>Цена товаров</p> <p>29 456 ₽</p></div>
-                        <div class="order-summary__total-discount"><p>Все скидки</p> <p>–7 732 ₽</p></div>
-                        <div class="order-summary__discount"><p>Скидка за предоплату</p> <p>–3%</p></div>
                     </div>
                 </section>
                 <div class="confirmation">
-                    <button class="confirmation__btn">Оформить и оплатить</button>
-                    <div class="total">
-                        <p class="total__description">Итого к оплате на сайте:</p>
-                        <p class="total__sum">21 072 ₽</p>
+                    <div class="container">
+                        <button class="confirmation__btn">Оформить и оплатить</button>
+                        <div class="total">
+                            <p class="total__description">Итого к оплате на сайте:</p>
+                            <p class="total__sum">21 072 ₽</p>
+                        </div>
                     </div>
                 </div>
             </form>
         </main>
-        
-
-    </div>
 </body>
 </html>

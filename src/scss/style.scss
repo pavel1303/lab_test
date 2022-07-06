@@ -1,77 +1,66 @@
 @import 'base/__fonts';
 @import 'base/__normalize';
-@import 'abstracts/_mixins';
-@import 'abstracts/_variables';
 @import 'base/_body';
-@import 'base/_wrapper';
+@import 'base/_html';
 @import 'base/_container';
-@import 'layout/header/header';
-@import 'base/_main';
 
-@import 'layout/header/__title/header__title';
-@import 'layout/header/__link/header__link';
-@import 'layout/header/__logo/header__logo';
-@import 'layout/header/__subtitle/header__subtitle';
-@import 'layout/header/__navigation/header__navigation';
-@import 'components/navigation/navigation';
-@import 'components/navigation/__item/navigation__item';
-@import 'components/navigation/__link/navigation__link';
-@import 'components/burger/burger';
-@import 'components/burger/__line/burger__line';
+@import 'components/order/_order';
 
-@import 'components/start/start';
-@import 'components/start/__content/start__content';
-@import 'components/start/__title/start__title';
-@import 'components/start/__text/start__text';
-@import 'components/start/__button/start__button';
-@import 'components/start/__img/start__img';
+@import 'components/order-setup/_order-setup';
+@import 'components/order-setup/__delivery/_order-setup__delivery';
+@import 'components/order-setup/__recipient/_order-setup__recipient';
+@import 'components/order-setup/__title-block/_order-setup__title-block';
+@import 'components/order-setup/__title/_order-setup__title';
 
-@import 'components/button-with-bg/button-with-bg';
-@import 'components/button-without-bg/button-without-bg';
-@import 'components/title/title';
+@import 'components/tumblers/_tumblers';
+@import 'components/tumblers/__back/_tumblers__back';
+@import 'components/tumblers/__forward/_tumblers__forward';
 
-@import 'components/about/about';
-@import 'components/about/__content/about__content';
-@import 'components/about/__title/about__title';
-@import 'components/about/__text/about__text';
-@import 'components/about/__img/about__img';
+@import 'components/address-selection/_address-selection';
+@import 'components/address-selection/__address/_address-selection__address';
+@import 'components/address-selection/__item/_address-selection__item';
+@import 'components/address-selection/__items/_address-selection__items';
+@import 'components/address-selection/__new/_address-selection__new';
+@import 'components/address-selection/__price/_address-selection__price';
 
-@import 'components/pets/pets';
-@import 'components/pets/__title/pets__title';
-@import 'components/pets/__button/pets__button';
-@import 'components/button-without-bg/button-without-bg';
+@import 'components/confirmation/_confirmation';
+@import 'components/confirmation/__btn/_confirmation__btn';
 
-@import 'components/slider/slider';
-@import 'components/slider/__content/slider__content';
-@import 'components/slider/__left/slider__left';
-@import 'components/slider/__right/slider__right';
-@import 'components/slider/__control/slider__control';
-@import 'components/slider/__move/slider__move';
+@import 'components/date-selection/_date-selection';
+@import 'components/date-selection/__item/_date-selection__item';
+@import 'components/date-selection/__items/_date-selection__items';
+@import 'components/date-selection/__new/_date-selection__new';
 
-@import 'components/pet-card/pet-card';
-@import 'components/pet-card/__button/pet-card__button';
-@import 'components/pet-card/__img/pet-card__img';
-@import 'components/pet-card/__subtitle/pet-card__subtitle';
+@import 'components/options/_options';
 
-@import 'components/help/help';
-@import 'components/help/__content/help__content';
-@import 'components/help/__item/help__item';
-@import 'components/help/__icon/help__icon';
-@import 'components/help/__subtitle/help__subtitle';
-@import 'components/help/__title/help__title';
+@import 'components/order-setup/_order-setup';
+@import 'components/order-setup/__delivery/_order-setup__delivery';
+@import 'components/order-setup/__recipient/_order-setup__recipient';
+@import 'components/order-setup/__title-block/_order-setup__title-block';
+@import 'components/order-setup/__title/_order-setup__title';
 
-@import 'components/donation/donation';
-@import 'components/donation/__button/donation__button';
-@import 'components/donation/__content/donation__content';
-@import 'components/donation/__description/donation__description';
-@import 'components/donation/__text/donation__text';
-@import 'components/donation/__title/donation__title';
-@import 'components/donation/__img/donation__img';
+@import 'components/order-summary/_order-summary';
+@import 'components/order-summary/__discount/_order-summary__discount';
+@import 'components/order-summary/__title/_order-summary__title';
+@import 'components/order-summary/__total-discount/_order-summary__total-discount';
+@import 'components/order-summary/__total/_order-summary__total';
 
-@import 'layout/footer/footer';
-@import 'layout/footer/__content/footer__content';
-@import 'layout/footer/__email/footer__email';
-@import 'layout/footer/__link/footer__link';
-@import 'layout/footer/__title/footer__title';
-@import 'layout/footer/_tel/footer__tel';
-@import 'layout/footer/__img/footer__img';
+@import 'components/order/_order';
+
+@import 'components/pseudolink/_pseudolink';
+
+@import 'components/recipient-info/_recipient-info';
+@import 'components/recipient-info/__contact/_recipient-info__contact';
+@import 'components/recipient-info/__name/_recipient-info__name';
+@import 'components/recipient-info/__new-contact/_recipient-info__new-contact';
+@import 'components/recipient-info/__new-name/_recipient-info__new-name';
+
+@import 'components/title/_title';
+
+@import 'components/total/_total';
+@import 'components/total/__description/_total__description';
+@import 'components/total/__sum/_total__sum';
+
+@import 'components/tumblers/_tumblers';
+@import 'components/tumblers/__back/_tumblers__back';
+@import 'components/tumblers/__forward/_tumblers__forward';
