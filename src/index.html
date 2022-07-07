@@ -12,7 +12,7 @@
             <div class="container">
                 <h1 class="title">Оформление заказа</h1>
             </div>
-            <form action="#">
+            <form>
                 <section class="order">
                     <div class="container">
                         <div class="order-setup">
@@ -26,27 +26,29 @@
                                 </div>
                                 <div class="address-selection">
                                     <div class="address-selection__items">
-                                        <div class="address-selection__item">
+                                        <label class="address-selection__item" for="address_1">
+                                            <input type="radio" value="Почта России, курьер — 24-26 сент. ул. Академика Королева, 73/3, Петропавловск- Камчатский, 683000" name="select-address" id="address_1" checked>
                                             <div class="address-selection__address"><span>Почта России, курьер — 24-26 сент.</span><span>ул. Академика Королева, 73/3, Петропавловск- Камчатский, 683000</span></div>
                                             <div class="address-selection__price">+367 ₽</div>
-                                        </div>
-                                        <div class="address-selection__item">
+                                        </label>
+                                        <label class="address-selection__item" for="address_2">
+                                            <input type="radio" value="Лабиринт, курьер — 25 сент. Можайское шоссе, д. 21, кв. 50, Москва, 121471" name="select-address" id="address_2">
                                             <div class="address-selection__address"><span>Лабиринт, курьер — 25 сент.</span><span>Можайское шоссе, д. 21, кв. 50, Москва, 121471</span></div>
                                             <div class="address-selection__price">0 ₽</div>
-                                        </div>
+                                        </label>
                                     </div>
                                     <div class="address-selection__new pseudolink">Выбрать новое место и способ</div>
                                 </div>
                                 <div class="date-selection">
                                     <div class="date-selection__items">
-                                        <div class="date-selection__item"><span>пн, 24 сен — ср, 26 сен</span><span>10:00–19:00</span></div>
-                                        <div class="date-selection__item"><span>чт, 27 сен — пт, 28 сен</span><span>10:00–19:00</span></div>
+                                        <label class="date-selection__item" for="date_1"><input type="radio" value="пн, 24 сен — ср, 26 сен 10:00–19:00" name="select-date" id="date_1" checked><span>пн, 24 сен — ср, 26 сен</span><span>10:00–19:00</span></label>
+                                        <label class="date-selection__item" for="date_2"><input type="radio" value="чт, 27 сен — пт, 28 сен 10:00–19:00" name="select-date" id="date_2"><span>чт, 27 сен — пт, 28 сен</span><span>10:00–19:00</span></label>
                                     </div>
                                     <div class="date-selection__new pseudolink">Другие дата и время</div>
                                 </div>
                                 <div class="options">
-                                    <label for="notifications"><input type="checkbox" id="notifications">Viber/СМС уведомления о статусе заказа</label>
-                                    <label for="contactless-delivery"><input type="checkbox" id="contactless-delivery" checked disabled>Оставить у двери (бесконтактная доставка)</label>
+                                    <label for="notifications"><input name="notifications_true" type="checkbox" id="notifications"  checked>Viber/СМС уведомления о статусе заказа</label>
+                                    <label for="contactless-delivery"><input name="contactless-delivery_true" type="checkbox" id="contactless-delivery"  checked>Оставить у двери (бесконтактная доставка)</label>
                                 </div>
                             </div>
                             <div class="order-setup__recipient">
