@@ -1,3 +1,17 @@
 .address-selection__item {
-    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    padding: 2rem;
+    border: 1px solid #d6d6d6;
+    border-radius: 0.4rem;
+    input {
+        visibility: hidden;
+        position: absolute;
+    }
+    &:hover {
+        cursor: pointer;
+    }
 }

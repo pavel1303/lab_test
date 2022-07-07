@@ -5,6 +5,16 @@
 @import 'base/_container';
 
 @import 'components/order/_order';
+@import 'components/order/__container/_order__container';
+
+@import 'components/content/_content';
+
+
+@import 'components/arrow/_arrow';
+@import 'components/arrow/--left/_arrow--left';
+@import 'components/arrow/--right/_arrow--right';
+
+
 
 @import 'components/order-setup/_order-setup';
 @import 'components/order-setup/__delivery/_order-setup__delivery';
@@ -13,21 +23,24 @@
 @import 'components/order-setup/__title/_order-setup__title';
 
 @import 'components/tumblers/_tumblers';
-@import 'components/tumblers/__back/_tumblers__back';
-@import 'components/tumblers/__forward/_tumblers__forward';
+@import 'components/tumblers/__item/_tumblers__item';
+@import 'components/tumblers/__item/--disable/_tumblers__item--disable';
 
 @import 'components/address-selection/_address-selection';
 @import 'components/address-selection/__address/_address-selection__address';
 @import 'components/address-selection/__item/_address-selection__item';
+@import 'components/address-selection/__item/--select/_address-selection__item--select';
 @import 'components/address-selection/__items/_address-selection__items';
 @import 'components/address-selection/__new/_address-selection__new';
 @import 'components/address-selection/__price/_address-selection__price';
 
 @import 'components/confirmation/_confirmation';
 @import 'components/confirmation/__btn/_confirmation__btn';
+@import 'components/confirmation/__container/_confirmation__container';
 
 @import 'components/date-selection/_date-selection';
 @import 'components/date-selection/__item/_date-selection__item';
+@import 'components/date-selection/__item/--select/_date-selection__item--select';
 @import 'components/date-selection/__items/_date-selection__items';
 @import 'components/date-selection/__new/_date-selection__new';
 
@@ -40,10 +53,8 @@
 @import 'components/order-setup/__title/_order-setup__title';
 
 @import 'components/order-summary/_order-summary';
-@import 'components/order-summary/__discount/_order-summary__discount';
 @import 'components/order-summary/__title/_order-summary__title';
-@import 'components/order-summary/__total-discount/_order-summary__total-discount';
-@import 'components/order-summary/__total/_order-summary__total';
+@import 'components/order-summary/__item/_order-summary__item';
 
 @import 'components/order/_order';
 
@@ -60,7 +71,3 @@
 @import 'components/total/_total';
 @import 'components/total/__description/_total__description';
 @import 'components/total/__sum/_total__sum';
-
-@import 'components/tumblers/_tumblers';
-@import 'components/tumblers/__back/_tumblers__back';
-@import 'components/tumblers/__forward/_tumblers__forward';

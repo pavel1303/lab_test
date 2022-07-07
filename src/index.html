@@ -8,25 +8,26 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="body">
+    <form>
         <main class="content">
             <div class="container">
                 <h1 class="title">Оформление заказа</h1>
             </div>
-            <form>
+            
                 <section class="order">
-                    <div class="container">
+                    <div class="order__container container">
                         <div class="order-setup">
                             <div class="order-setup__delivery">
                                 <div class="order-setup__title-block">
                                     <h2 class="order-setup__title">Доставка</h2>
                                     <div class="tumblers">
-                                        <div class="tumblers__back">ᐸ</div>
-                                        <div class="tumblers__forward">ᐳ</div>
+                                        <div class="tumblers__item tumblers__item--disable"><span class="arrow arrow--left"></div>
+                                        <div class="tumblers__item"><span class="arrow arrow--right"></span></div>
                                     </div>
                                 </div>
                                 <div class="address-selection">
                                     <div class="address-selection__items">
-                                        <label class="address-selection__item" for="address_1">
+                                        <label class="address-selection__item address-selection__item--select" for="address_1">
                                             <input type="radio" value="Почта России, курьер — 24-26 сент. ул. Академика Королева, 73/3, Петропавловск- Камчатский, 683000" name="select-address" id="address_1" checked>
                                             <div class="address-selection__address"><span>Почта России, курьер — 24-26 сент.</span><span>ул. Академика Королева, 73/3, Петропавловск- Камчатский, 683000</span></div>
                                             <div class="address-selection__price">+367 ₽</div>
@@ -41,8 +42,8 @@
                                 </div>
                                 <div class="date-selection">
                                     <div class="date-selection__items">
-                                        <label class="date-selection__item" for="date_1"><input type="radio" value="пн, 24 сен — ср, 26 сен 10:00–19:00" name="select-date" id="date_1" checked><span>пн, 24 сен — ср, 26 сен</span><span>10:00–19:00</span></label>
-                                        <label class="date-selection__item" for="date_2"><input type="radio" value="чт, 27 сен — пт, 28 сен 10:00–19:00" name="select-date" id="date_2"><span>чт, 27 сен — пт, 28 сен</span><span>10:00–19:00</span></label>
+                                        <label class="date-selection__item date-selection__item--select" for="date_1"><input type="radio" value="пн, 24 сен — ср, 26 сен 10:00–19:00" name="select-date" id="date_1" checked><span> пн, 24 сен — ср, 26 сен</span><span> 10:00–19:00</span></label>
+                                        <label class="date-selection__item" for="date_2"><input type="radio" value="чт, 27 сен — пт, 28 сен 10:00–19:00" name="select-date" id="date_2"><span> чт, 27 сен — пт, 28 сен</span><span> 10:00–19:00</span></label>
                                     </div>
                                     <div class="date-selection__new pseudolink">Другие дата и время</div>
                                 </div>
@@ -73,22 +74,22 @@
                         </div>
                         <div class="order-summary">
                             <h2 class="order-summary__title">В заказе 4 товара <span>(2 кг)</span></h2>
-                            <div class="order-summary__total"><p>Цена товаров</p> <p>29 456 ₽</p></div>
-                            <div class="order-summary__total-discount"><p>Все скидки</p> <p>–7 732 ₽</p></div>
-                            <div class="order-summary__discount"><p>Скидка за предоплату</p> <p>–3%</p></div>
+                            <div class="order-summary__item"><span>Цена товаров</span> <span>29 456 ₽</span></div>
+                            <div class="order-summary__item"><span>Все скидки</span> <span>–7 732 ₽</span></div>
+                            <div class="order-summary__item"><span>Скидка за предоплату</span> <span>–3%</span></div>
                         </div>
                     </div>
                 </section>
-                <div class="confirmation">
-                    <div class="container">
-                        <button class="confirmation__btn">Оформить и оплатить</button>
-                        <div class="total">
-                            <p class="total__description">Итого к оплате на сайте:</p>
-                            <p class="total__sum">21 072 ₽</p>
-                        </div>
-                    </div>
-                </div>
-            </form>
         </main>
+        <div class="confirmation">
+            <div class="confirmation__container container">
+                <button class="confirmation__btn">Оформить и оплатить</button>
+                <div class="total">
+                    <p class="total__description">Итого к оплате на сайте:</p>
+                    <p class="total__sum">21 072 ₽</p>
+                </div>
+            </div>
+        </div>
+    </form>
 </body>
 </html>

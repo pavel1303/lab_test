@@ -1,3 +1,17 @@
 .confirmation__btn {
-    
+    width: 40rem;
+    height: 8rem;
+    border: 1px solid #e01d1d;
+    border-radius: 0.4rem;
+    background: linear-gradient(91.91deg, rgba(208, 38, 38, 0) 0%, #D02626 99.65%),
+    linear-gradient(0deg, #E01D1D, #E01D1D),
+    linear-gradient(0deg, #EC0002, #EC0002),
+    linear-gradient(0deg, #FF0000, #FF0000);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.9rem;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
 }
