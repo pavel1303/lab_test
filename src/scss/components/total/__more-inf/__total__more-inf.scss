@@ -1,7 +1,9 @@
-.recipient-info__new-name {
+.total__more-inf {
+    display: none;
     @media screen and (max-width: 610px) {
+        display: block;
         position: absolute;
-        top: -27px;
+        top: 0;
         right: 0;
     }
 }

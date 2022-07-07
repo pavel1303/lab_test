@@ -13,6 +13,9 @@
         &:hover{
             cursor: pointer;
         }
+        @media screen and (max-width: 610px) {
+            width: 210px;
+        }
     }
     &::after {
         content: 'Контактный телефон';

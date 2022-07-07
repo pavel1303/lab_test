@@ -3,6 +3,9 @@
     height: 8rem;
     border: 1px solid #e01d1d;
     border-radius: 0.4rem;
+    box-shadow: 0px 2px 0px 0px #95878066;
+    box-shadow: 0px 3px 1px 0px #0000000A;
+    box-shadow: 0px 3px 8px 0px #0000001F;
     background: linear-gradient(91.91deg, rgba(208, 38, 38, 0) 0%, #D02626 99.65%),
     linear-gradient(0deg, #E01D1D, #E01D1D),
     linear-gradient(0deg, #EC0002, #EC0002),
@@ -14,4 +17,7 @@
     font-weight: 700;
     color: #ffffff;
     cursor: pointer;
+    @media screen and (max-width: 610px) {
+        width: 100%;
+    }
 }

@@ -1,7 +1,12 @@
 .recipient-info {
+    position: relative;
     padding-top: 1.4rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: start;
     gap: 1.4rem;
     width: 90%;
+    @media screen and (max-width: 610px) {
+        flex-direction: column;
+    }
 }

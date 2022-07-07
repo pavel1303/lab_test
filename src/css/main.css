@@ -363,6 +363,11 @@ html {
   max-width: 161.4rem;
   margin: 0 auto;
 }
+@media screen and (max-width: 610px) {
+  .container {
+    width: 94%;
+  }
+}
 
 .order {
   display: flex;
@@ -381,6 +386,12 @@ html {
   margin: 0 auto;
   padding-bottom: 150px;
   width: 90%;
+}
+@media screen and (max-width: 610px) {
+  .content {
+    width: 100%;
+    overflow-x: hidden;
+  }
 }
 
 .arrow {
@@ -408,6 +419,12 @@ html {
   width: 64%;
   border-right: 1px solid #8c8c8c;
 }
+@media screen and (max-width: 610px) {
+  .order-setup {
+    width: 100%;
+    border-right: none;
+  }
+}
 
 .order-setup__delivery {
   padding-right: 4.7%;
@@ -427,12 +444,17 @@ html {
 .order-setup__title {
   margin: 0;
   color: #333333;
-  font-size: 29px;
+  font-size: 2.9rem;
 }
 
 .tumblers {
   display: flex;
   gap: 4px;
+}
+@media screen and (max-width: 610px) {
+  .tumblers {
+    display: none;
+  }
 }
 
 .tumblers__item {
@@ -472,6 +494,7 @@ html {
   align-items: center;
   justify-content: space-between;
   width: 45%;
+  height: 14.4rem;
   padding: 2rem;
   border: 1px solid #d6d6d6;
   border-radius: 0.4rem;
@@ -483,6 +506,13 @@ html {
 .address-selection__item:hover {
   cursor: pointer;
 }
+@media screen and (max-width: 610px) {
+  .address-selection__item {
+    box-sizing: border-box;
+    min-width: 300px;
+    height: 114px;
+  }
+}
 
 .address-selection__item--select {
   border: 2px solid #065CC2;
@@ -493,6 +523,11 @@ html {
   justify-content: space-between;
   gap: 1rem;
   margin-bottom: 2.2rem;
+}
+@media screen and (max-width: 610px) {
+  .address-selection__items {
+    overflow-x: scroll;
+  }
 }
 
 .address-selection__new {
@@ -513,6 +548,12 @@ html {
   justify-content: center;
   background-color: #f8f8f8;
   border: 1px solid #d6d6d6;
+  z-index: 5;
+}
+@media screen and (max-width: 610px) {
+  .confirmation {
+    height: 120px;
+  }
 }
 
 .confirmation__btn {
@@ -520,6 +561,9 @@ html {
   height: 8rem;
   border: 1px solid #e01d1d;
   border-radius: 0.4rem;
+  box-shadow: 0px 2px 0px 0px rgba(149, 135, 128, 0.4);
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.0392156863);
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1215686275);
   background: linear-gradient(91.91deg, rgba(208, 38, 38, 0) 0%, #D02626 99.65%), linear-gradient(0deg, #E01D1D, #E01D1D), linear-gradient(0deg, #EC0002, #EC0002), linear-gradient(0deg, #FF0000, #FF0000);
   display: flex;
   align-items: center;
@@ -529,11 +573,23 @@ html {
   color: #ffffff;
   cursor: pointer;
 }
+@media screen and (max-width: 610px) {
+  .confirmation__btn {
+    width: 100%;
+  }
+}
 
 .confirmation__container {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media screen and (max-width: 610px) {
+  .confirmation__container {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
 }
 
 .date-selection {
@@ -541,6 +597,12 @@ html {
   align-items: center;
   gap: 2rem;
   padding-bottom: 18px;
+}
+@media screen and (max-width: 610px) {
+  .date-selection {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .date-selection__item {
@@ -565,6 +627,12 @@ html {
 .date-selection__item span:first-of-type {
   font-weight: 700;
 }
+@media screen and (max-width: 610px) {
+  .date-selection__item {
+    width: 117px;
+    height: 75px;
+  }
+}
 
 .date-selection__item--select {
   border: 2px solid #065CC2;
@@ -575,6 +643,11 @@ html {
   display: flex;
   align-items: center;
   gap: 1.4rem;
+}
+@media screen and (max-width: 610px) {
+  .date-selection__items {
+    width: 100%;
+  }
 }
 
 .options {
@@ -602,6 +675,12 @@ html {
   width: 64%;
   border-right: 1px solid #8c8c8c;
 }
+@media screen and (max-width: 610px) {
+  .order-setup {
+    width: 100%;
+    border-right: none;
+  }
+}
 
 .order-setup__delivery {
   padding-right: 4.7%;
@@ -621,12 +700,17 @@ html {
 .order-setup__title {
   margin: 0;
   color: #333333;
-  font-size: 29px;
+  font-size: 2.9rem;
 }
 
 .order-summary {
   width: 30%;
   padding: 4rem 0 0 5rem;
+}
+@media screen and (max-width: 610px) {
+  .order-summary {
+    display: none;
+  }
 }
 
 .order-summary__title {
@@ -667,11 +751,18 @@ html {
 }
 
 .recipient-info {
+  position: relative;
   padding-top: 1.4rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: start;
   gap: 1.4rem;
   width: 90%;
+}
+@media screen and (max-width: 610px) {
+  .recipient-info {
+    flex-direction: column;
+  }
 }
 
 .recipient-info__contact {
@@ -690,6 +781,11 @@ html {
 }
 .recipient-info__contact select:hover {
   cursor: pointer;
+}
+@media screen and (max-width: 610px) {
+  .recipient-info__contact select {
+    width: 210px;
+  }
 }
 .recipient-info__contact::after {
   content: "Контактный телефон";
@@ -732,6 +828,11 @@ html {
 .recipient-info__name select:hover {
   cursor: pointer;
 }
+@media screen and (max-width: 610px) {
+  .recipient-info__name select {
+    width: 296px;
+  }
+}
 .recipient-info__name::after {
   content: "Имя и Фамилия";
   font-size: 1.7rem;
@@ -755,6 +856,23 @@ html {
   pointer-events: none;
 }
 
+@media screen and (max-width: 610px) {
+  .recipient-info__new-contact {
+    width: 85px;
+    position: absolute;
+    top: 5px;
+    right: -100px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .recipient-info__new-name {
+    position: absolute;
+    top: -27px;
+    right: 0;
+  }
+}
+
 .title {
   font-size: 3.5rem;
 }
@@ -764,14 +882,52 @@ html {
   align-items: center;
   font-size: 2.2rem;
 }
+@media screen and (max-width: 610px) {
+  .total {
+    justify-content: start;
+  }
+}
 
 .total__description {
   padding-right: 11rem;
+}
+@media screen and (max-width: 610px) {
+  .total__description {
+    display: none;
+  }
 }
 
 .total__sum {
   font-size: 3.5rem;
   font-weight: 700;
+}
+@media screen and (max-width: 610px) {
+  .total__sum {
+    display: none;
+  }
+}
+
+.total__description--mobile {
+  display: none;
+}
+@media screen and (max-width: 610px) {
+  .total__description--mobile {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+
+.total__more-inf {
+  display: none;
+}
+@media screen and (max-width: 610px) {
+  .total__more-inf {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

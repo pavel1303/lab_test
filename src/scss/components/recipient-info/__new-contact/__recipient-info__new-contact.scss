@@ -1,3 +1,8 @@
 .recipient-info__new-contact {
-    
+    @media screen and (max-width: 610px) {
+        width: 85px;
+        position: absolute;
+        top: 5px;
+        right: -100px;
+    }
 }

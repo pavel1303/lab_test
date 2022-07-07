@@ -1,0 +1,8 @@
+.total__description--mobile {
+    display: none;
+    @media screen and (max-width: 610px) {
+        display: block;
+        font-size: 14px;
+        font-weight: 700;
+    }
+}

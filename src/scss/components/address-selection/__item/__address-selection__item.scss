@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     width: 45%;
+    height: 14.4rem;
     padding: 2rem;
     border: 1px solid #d6d6d6;
     border-radius: 0.4rem;
@@ -13,5 +14,10 @@
     }
     &:hover {
         cursor: pointer;
+    }
+    @media screen and (max-width: 610px) {
+        box-sizing: border-box;
+        min-width: 300px;
+        height: 114px;
     }
 }

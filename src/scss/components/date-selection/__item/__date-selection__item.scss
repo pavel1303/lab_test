@@ -19,4 +19,8 @@
     span:first-of-type{
         font-weight: 700;
     }
+    @media screen and (max-width: 610px) {
+        width: 117px;
+        height: 75px;
+    }
 }

@@ -1,4 +1,7 @@
 .order-summary {
     width: 30%;
     padding: 4rem 0 0 5rem;
+    @media screen and (max-width: 610px) {
+        display: none;
+    }
 }
