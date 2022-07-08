@@ -1,3 +1,6 @@
 .order-setup__delivery {
     padding-right: 4.7%;
+    @media screen and (max-width: 610px) {
+        padding: 0;
+    }
 }

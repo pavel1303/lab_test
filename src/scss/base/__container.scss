@@ -3,6 +3,8 @@
     max-width: 161.4rem;
     margin: 0 auto;
     @media screen and (max-width: 610px) {
-        width: 94%;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }

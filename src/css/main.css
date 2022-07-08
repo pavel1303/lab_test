@@ -365,7 +365,9 @@ html {
 }
 @media screen and (max-width: 610px) {
   .container {
-    width: 94%;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -428,6 +430,11 @@ html {
 
 .order-setup__delivery {
   padding-right: 4.7%;
+}
+@media screen and (max-width: 610px) {
+  .order-setup__delivery {
+    padding: 0;
+  }
 }
 
 .order-setup__recipient {
@@ -527,6 +534,7 @@ html {
 @media screen and (max-width: 610px) {
   .address-selection__items {
     overflow-x: scroll;
+    padding-right: 20px;
   }
 }
 
@@ -684,6 +692,11 @@ html {
 
 .order-setup__delivery {
   padding-right: 4.7%;
+}
+@media screen and (max-width: 610px) {
+  .order-setup__delivery {
+    padding: 0;
+  }
 }
 
 .order-setup__recipient {
@@ -926,7 +939,7 @@ html {
     display: block;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 3rem;
   }
 }
 
