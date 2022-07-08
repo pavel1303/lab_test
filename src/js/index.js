@@ -43,9 +43,9 @@ tumblers.forEach((el) => {
       for (let i = 0; i < addressSelectionItems.length; i += 1) {
         if (addressSelectionItems[i].classList.contains('address-selection__item--select') && addressSelectionItems[i + 1]) {
           addressSelectionItems[i].classList.remove('address-selection__item--select');
-          addressInputs[i].checked = false;
+          addressInputs[i].checked = 'false';
           addressSelectionItems[i + 1].classList.add('address-selection__item--select');
-          addressSelectionItems[i + 1].checked = true;
+          addressInputs[i + 1].checked = 'true';
           if (!addressSelectionItems[i + 2]) el.classList.add('tumblers__item--disable');
           if (addressSelectionItems[i]) tumblerLeft.classList.remove('tumblers__item--disable');
         }
@@ -55,9 +55,9 @@ tumblers.forEach((el) => {
       for (let i = addressSelectionItems.length - 1; i >= 0; i -= 1) {
         if (addressSelectionItems[i].classList.contains('address-selection__item--select') && addressSelectionItems[i - 1]) {
           addressSelectionItems[i].classList.remove('address-selection__item--select');
-          addressInputs[i].checked = false;
+          addressInputs[i].checked = 'false';
           addressSelectionItems[i - 1].classList.add('address-selection__item--select');
-          addressSelectionItems[i - 1].checked = true;
+          addressInputs[i - 1].checked = 'true';
           if (!addressSelectionItems[i - 2]) el.classList.add('tumblers__item--disable');
           if (addressSelectionItems[i]) tumblerRight.classList.remove('tumblers__item--disable');
         }
