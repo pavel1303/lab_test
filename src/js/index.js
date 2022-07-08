@@ -1,3 +1,5 @@
+import '../scss/style.scss';
+
 const moreInfoBtn = document.querySelector('.total__more-inf');
 const popup = document.querySelector('.popup');
 const closePopupBtn = popup.querySelector('.popup__btn');

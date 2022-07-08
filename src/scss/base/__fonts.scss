@@ -1,35 +1,29 @@
+@charset "UTF-8";
 @font-face {
-    font-family: 'PT Root UI';
-    src: url('PTRootUI-Medium.woff2') format('woff2'),
-        url('PTRootUI-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: "PT Root UI";
+  src: url("../assets/fonts/PTRootUI-Medium.woff2") format("woff2"), url("../assets/fonts/PTRootUI-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
-
 @font-face {
-    font-family: 'PT Root UI';
-    src: url('PTRootUI-Regular.woff2') format('woff2'),
-        url('PTRootUI-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "PT Root UI";
+  src: url("../assets/fonts/PTRootUI-Regular.woff2") format("woff2"), url("../assets/fonts/PTRootUI-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
 @font-face {
-    font-family: 'PT Root UI';
-    src: url('PTRootUI-Light.woff2') format('woff2'),
-        url('PTRootUI-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: "PT Root UI";
+  src: url("../assets/fonts/PTRootUI-Light.woff2") format("woff2"), url("../assets/fonts/PTRootUI-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
-
 @font-face {
-    font-family: 'PT Root UI';
-    src: url('PTRootUI-Bold.woff2') format('woff2'),
-        url('PTRootUI-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "PT Root UI";
+  src: url("../assets/fonts/PTRootUI-Bold.woff2") format("woff2"), url("../assets/fonts/PTRootUI-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }

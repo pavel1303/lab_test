@@ -1,3 +1,4 @@
+const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -27,7 +28,7 @@ module.exports = {
 
   plugins,
 
-  entry: './src/index.js', // Указываем точку входа - главный модуль приложения, в который импортируются все остальные
+  entry: './src/js/index.js', // Указываем точку входа - главный модуль приложения, в который импортируются все остальные
 
   output: {
     path: path.resolve(__dirname, 'dist'), // Директория, в которой будет размещаться итоговый бандл, папка dist в корне приложения
@@ -49,7 +50,7 @@ module.exports = {
         use: ['html-loader'],
       },
       {
-        test: /\.(s[ac|c])ss$/i,
+        test: /\.(s*)css$/i,
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
