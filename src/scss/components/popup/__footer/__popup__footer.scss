@@ -1,0 +1,12 @@
+.popup__footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 85px;
+    border-top: 1px solid #d6d6d6;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}

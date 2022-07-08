@@ -1,0 +1,14 @@
+.popup__description {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    span:last-of-type {
+        font-weight: 700;
+    }
+    &:last-of-type {
+        padding-top: 14px;
+        padding-bottom: 14px;
+        border-top: 1px solid #d6d6d6;
+        border-bottom: 1px solid #d6d6d6;
+    }
+}
