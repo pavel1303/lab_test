@@ -21,8 +21,8 @@
                                 <div class="order-setup__title-block">
                                     <h2 class="order-setup__title">Доставка</h2>
                                     <div class="tumblers">
-                                        <div class="tumblers__item tumblers__item--disable"><span class="arrow arrow--left"></div>
-                                        <div class="tumblers__item"><span class="arrow arrow--right"></span></div>
+                                        <div class="tumblers__item tumblers__item--disable" id="left-switch"><span class="arrow arrow--left"></div>
+                                        <div class="tumblers__item" id="right-switch"><span class="arrow arrow--right"></span></div>
                                     </div>
                                 </div>
                                 <div class="address-selection">
@@ -49,7 +49,7 @@
                                 </div>
                                 <div class="options">
                                     <label for="notifications"><input name="notifications_true" type="checkbox" id="notifications"  checked>Viber/СМС уведомления о статусе заказа</label>
-                                    <label for="contactless-delivery"><input name="contactless-delivery_true" type="checkbox" id="contactless-delivery"  checked>Оставить у двери (бесконтактная доставка)</label>
+                                    <label for="contactless-delivery"><input name="contactless-delivery_true" type="checkbox" id="contactless-delivery"  checked disabled>Оставить у двери (бесконтактная доставка)</label>
                                 </div>
                             </div>
                             <div class="order-setup__recipient">
