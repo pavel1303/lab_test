@@ -1,0 +1,9 @@
+.order-setup {
+    padding-top: 4rem;
+    width: 64%;
+    border-right: 1px solid #8c8c8c;
+    @media screen and (max-width: 610px) {
+        width: 100%;
+        border-right: none;
+    }
+}

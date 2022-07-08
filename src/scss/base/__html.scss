@@ -1,0 +1,10 @@
+html {
+    width: 100%;
+    font-size: 10px;
+    @media screen and (max-width: 1784px) {
+        font-size: 8px;
+    }
+    @media screen and (max-width: 1448px) {
+        font-size: 6px;
+    }
+}

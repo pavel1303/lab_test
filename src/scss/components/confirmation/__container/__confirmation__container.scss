@@ -1,0 +1,10 @@
+.confirmation__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (max-width: 610px) {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+}

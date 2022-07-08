@@ -1,0 +1,84 @@
+@import 'base/__fonts';
+@import 'base/__normalize';
+@import 'base/_body';
+@import 'base/_html';
+@import 'base/_container';
+
+@import 'components/order/_order';
+@import 'components/order/__container/_order__container';
+
+@import 'components/content/_content';
+
+
+@import 'components/arrow/_arrow';
+@import 'components/arrow/--left/_arrow--left';
+@import 'components/arrow/--right/_arrow--right';
+
+
+
+@import 'components/order-setup/_order-setup';
+@import 'components/order-setup/__delivery/_order-setup__delivery';
+@import 'components/order-setup/__recipient/_order-setup__recipient';
+@import 'components/order-setup/__title-block/_order-setup__title-block';
+@import 'components/order-setup/__title/_order-setup__title';
+
+@import 'components/tumblers/_tumblers';
+@import 'components/tumblers/__item/_tumblers__item';
+@import 'components/tumblers/__item/--disable/_tumblers__item--disable';
+
+@import 'components/address-selection/_address-selection';
+@import 'components/address-selection/__address/_address-selection__address';
+@import 'components/address-selection/__item/_address-selection__item';
+@import 'components/address-selection/__item/--select/_address-selection__item--select';
+@import 'components/address-selection/__items/_address-selection__items';
+@import 'components/address-selection/__new/_address-selection__new';
+@import 'components/address-selection/__price/_address-selection__price';
+
+@import 'components/confirmation/_confirmation';
+@import 'components/confirmation/__btn/_confirmation__btn';
+@import 'components/confirmation/__container/_confirmation__container';
+
+@import 'components/date-selection/_date-selection';
+@import 'components/date-selection/__item/_date-selection__item';
+@import 'components/date-selection/__item/--select/_date-selection__item--select';
+@import 'components/date-selection/__items/_date-selection__items';
+@import 'components/date-selection/__new/_date-selection__new';
+
+@import 'components/options/_options';
+
+@import 'components/order-setup/_order-setup';
+@import 'components/order-setup/__delivery/_order-setup__delivery';
+@import 'components/order-setup/__recipient/_order-setup__recipient';
+@import 'components/order-setup/__title-block/_order-setup__title-block';
+@import 'components/order-setup/__title/_order-setup__title';
+
+@import 'components/order-summary/_order-summary';
+@import 'components/order-summary/__title/_order-summary__title';
+@import 'components/order-summary/__item/_order-summary__item';
+
+@import 'components/order/_order';
+
+@import 'components/pseudolink/_pseudolink';
+
+@import 'components/recipient-info/_recipient-info';
+@import 'components/recipient-info/__contact/_recipient-info__contact';
+@import 'components/recipient-info/__name/_recipient-info__name';
+@import 'components/recipient-info/__new-contact/_recipient-info__new-contact';
+@import 'components/recipient-info/__new-name/_recipient-info__new-name';
+
+@import 'components/title/_title';
+
+@import 'components/total/_total';
+@import 'components/total/__description/_total__description';
+@import 'components/total/__sum/_total__sum';
+@import 'components/total/__description/--mobile/_total__description--mobile';
+@import 'components/total/__more-inf/_total__more-inf';
+
+@import 'components/popup/_popup';
+@import 'components/popup/__title/_popup__title';
+@import 'components/popup/__btn/_popup__btn';
+@import 'components/popup/__description/_popup__description';
+@import 'components/popup/__footer/_popup__footer';
+@import 'components/popup/--open/_popup--open';
+@import 'components/popup/__container/_popup__container';
+

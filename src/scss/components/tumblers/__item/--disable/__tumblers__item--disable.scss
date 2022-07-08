@@ -1,0 +1,6 @@
+.tumblers__item--disable {
+    opacity: 0.3;
+    &:hover {
+        cursor: not-allowed;
+    }
+}

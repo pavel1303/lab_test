@@ -1,0 +1,8 @@
+.total {
+    display: flex;
+    align-items: center;
+    font-size: 2.2rem;
+    @media screen and (max-width: 610px) {
+        justify-content: start;
+    }
+}

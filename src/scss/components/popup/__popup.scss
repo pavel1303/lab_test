@@ -1,0 +1,11 @@
+.popup {
+    position: fixed;
+    top: -1500px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 40px);
+    padding-top: 40px;
+    background-color: #ffffff;
+    z-index: 10;
+    transition: all ease 0.7s;
+}

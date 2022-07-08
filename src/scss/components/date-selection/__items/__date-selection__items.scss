@@ -1,0 +1,9 @@
+.date-selection__items {
+    width: 57%;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    @media screen and (max-width: 610px) {
+        width: 100%;
+    }
+}

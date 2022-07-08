@@ -1,0 +1,6 @@
+.total__description {
+    padding-right: 11rem;
+    @media screen and (max-width: 610px) {
+       display: none;
+    }
+}

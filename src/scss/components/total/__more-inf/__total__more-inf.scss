@@ -1,0 +1,9 @@
+.total__more-inf {
+    display: none;
+    @media screen and (max-width: 610px) {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 3rem;
+    }
+}

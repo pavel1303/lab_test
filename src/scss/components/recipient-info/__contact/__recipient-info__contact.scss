@@ -1,0 +1,42 @@
+.recipient-info__contact {
+    position: relative;
+    width: fit-content;
+    font-size: 2.2rem;
+    select {
+        position: relative;
+        padding: 3.3rem 5.8rem 1.2rem 1.4rem;
+        font-weight: 700;
+        appearance: none;
+        border: 1px solid #d6d6d6;
+        margin-bottom: 1.7rem;
+        border-radius: 0.4rem;
+        &:hover{
+            cursor: pointer;
+        }
+        @media screen and (max-width: 610px) {
+            width: 210px;
+        }
+    }
+    &::after {
+        content: 'Контактный телефон';
+        font-size: 1.7rem;
+        font-weight: 400;
+        position: absolute;
+        top: 0.8rem;
+        left: 1.4rem;
+    }
+    &::before {
+        position: absolute;
+        content: '';
+        display: inline-block;
+        width: 1.2rem;
+        height: 1.2rem;
+        border-right: 2px solid #858585;
+        border-bottom: 2px solid #858585;
+        transform: rotate(45deg);
+        top: 25%;
+        right: 5%;
+        z-index: 1;
+        pointer-events: none;
+    }
+}
